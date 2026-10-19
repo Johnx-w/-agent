@@ -1,0 +1,33 @@
+/* Interaction details added after the first layout review. */
+.sidebar-bottom{margin-top:auto}
+.sidebar-user{margin-top:0}
+.account-avatar{width:32px;height:32px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;font-size:13px;font-weight:800}
+.account-avatar-small{width:31px;height:31px}
+.account-avatar-blue{background:#deebff;color:#315fa9}
+.account-avatar-violet{background:#eee9ff;color:#765bc5}
+.account-avatar-amber{background:#fff0d9;color:#ae7932}
+.account-switcher{position:relative;margin-left:2px}
+.account-trigger{height:36px;display:flex;align-items:center;gap:5px;border-radius:18px;background:transparent;padding:2px 3px 2px 2px;color:#9caac0}
+.account-trigger:hover,.account-trigger.active{background:#f0f4fa;color:#5c79aa}
+.account-trigger svg{margin-right:2px}
+.account-menu{position:absolute;right:0;top:46px;width:302px;padding:7px;background:#fff;border:1px solid #e1e8f2;border-radius:12px;box-shadow:0 18px 50px #1c355829;z-index:30;text-align:left}
+.account-menu-heading{display:flex;flex-direction:column;gap:4px;padding:11px 12px 13px;border-bottom:1px solid #eef1f6}
+.account-menu-heading span{font-size:12px;font-weight:800;color:#2c415c}
+.account-menu-heading small{font-size:10px;color:#97a6ba}
+.account-menu-list{padding:5px 0}
+.account-option{width:100%;display:flex;align-items:center;gap:10px;text-align:left;background:#fff;border-radius:7px;padding:9px 10px}
+.account-option:hover,.account-option.selected{background:#f2f6ff}
+.account-option-info{display:flex;min-width:0;flex:1;flex-direction:column;gap:4px}
+.account-option-info strong{font-size:11px;color:#344961;white-space:nowrap}
+.account-option-info strong small{font-size:9px;color:#9aa9bd;font-weight:600;margin-left:5px}
+.account-option-info>span{font-size:10px;color:#97a7ba;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.account-check{color:#4c79d5}
+.account-menu-note{display:flex;align-items:center;gap:7px;border-top:1px solid #eef1f6;padding:11px 12px 8px;font-size:10px;color:#9aa9b8}
+.account-menu-note svg{color:#86a0ce}
+.stat-card{display:block;width:100%;text-align:left;cursor:pointer;transition:transform .16s,box-shadow .16s,border-color .16s}
+.stat-card:hover{transform:translateY(-3px);border-color:#cbdcf8;box-shadow:0 14px 28px #243b5317}
+.stat-card:hover .stat-arrow{color:#4f7bd4}
+.focus-panel{display:flex;flex-direction:column}
+.focus-list{flex:1}
+@media(max-width:1200px){.order-toolbar{flex-wrap:wrap}.order-toolbar .search-field{flex:1;min-width:200px}.view-toggle{margin-left:0}}
+@media(max-width:520px){.account-menu{right:-2px;width:min(302px,calc(100vw - 24px))}.topbar-actions{gap:2px}.account-trigger{gap:2px}}
